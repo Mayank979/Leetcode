@@ -14,4 +14,17 @@ module.exports = class Tree {
 	inorder() {
 		this.root.inorder();
 	}
+	preorder() {
+		this.root.preorder();
+	}
+	postorder() {
+		this.root.postorder();
+	}
+
+	bfs(targetValue) {
+		return this.root.bfs(targetValue);
+	}
+	dfs(targetValue) {
+		return this.root.dfs(targetValue);
+	}
 };
